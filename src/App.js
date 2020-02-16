@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from '../src/components/header';
+import Headline from '../src/components/headline';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './app.scss';
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Header></Header>
+        <section className='main'>
+          <Headline header={'Posts'} desc='Culpa veniam fugiat aliqua mollit excepteur. Labore ex do ad commodo pariatur et excepteur ea non esse. Officia veniam esse eiusmod laborum do excepteur commodo enim excepteur. Ut nulla pariatur reprehenderit cillum deserunt sit laborum veniam eiusmod. Incididunt quis mollit id tempor id id do id irure aliquip qui proident et enim. Anim cupidatat consequat officia mollit ad.'/>
+        </section>
+      </div>
+    );
+  }
 }
 
 export default App;
