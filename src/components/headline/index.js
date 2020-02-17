@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import PropTypes from 'prop-types';
 export class Headline extends Component {
   render() {
     const { header, desc } = this.props;
@@ -17,4 +17,8 @@ export class Headline extends Component {
   }
 }
 
+Headline.prototype = {
+  header: PropTypes.string,
+  desc: PropTypes.string
+};
 export default Headline;
