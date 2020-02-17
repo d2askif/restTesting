@@ -40,6 +40,7 @@ describe('Headline Component', () => {
 
     it('Should not render component', () => {
       const comp = findByTestAtr(component, 'headerComponent');
+      expect(comp.length).toBe(0);
     });
   });
 });

@@ -10,7 +10,10 @@ class App extends React.Component {
       <div>
         <Header></Header>
         <section className='main'>
-          <Headline header={'Posts'} desc='Culpa veniam fugiat aliqua mollit excepteur. Labore ex do ad commodo pariatur et excepteur ea non esse. Officia veniam esse eiusmod laborum do excepteur commodo enim excepteur. Ut nulla pariatur reprehenderit cillum deserunt sit laborum veniam eiusmod. Incididunt quis mollit id tempor id id do id irure aliquip qui proident et enim. Anim cupidatat consequat officia mollit ad.'/>
+          <Headline
+            header={'Posts'}
+            desc='Culpa veniam fugiat aliqua mollit excepteur. Labore ex do ad commodo pariatur et excepteur ea non esse. Officia veniam esse eiusmod laborum do excepteur commodo enim excepteur. Ut nulla pariatur reprehenderit cillum deserunt sit laborum veniam eiusmod. Incididunt quis mollit id tempor id id do id irure aliquip qui proident et enim. Anim cupidatat consequat officia mollit ad.'
+          />
         </section>
       </div>
     );

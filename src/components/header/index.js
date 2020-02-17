@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import './styles.scss';
 import Logo from './logo.png';
 
@@ -13,4 +14,5 @@ const Header = props => {
     </header>
   );
 };
-export default Header;
+
+export default connect()(Header);
