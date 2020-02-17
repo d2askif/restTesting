@@ -17,8 +17,8 @@ export class Headline extends Component {
   }
 }
 
-Headline.prototype = {
+/* Headline.prototype = {
   header: PropTypes.string,
   desc: PropTypes.string
-};
+}; */
 export default Headline;
