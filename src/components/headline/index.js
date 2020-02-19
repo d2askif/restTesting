@@ -17,8 +17,16 @@ export class Headline extends Component {
   }
 }
 
-/* Headline.prototype = {
+Headline.protoType = {
   header: PropTypes.string,
-  desc: PropTypes.string
-}; */
+  desc: PropTypes.string,
+  tempArr: PropTypes.arrayOf(
+    PropTypes.shape({
+      fname: PropTypes.string,
+      lName: PropTypes.string,
+      age: PropTypes.number,
+      isOnline: PropTypes.bool
+    })
+  )
+};
 export default Headline;
